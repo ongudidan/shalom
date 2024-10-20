@@ -1,0 +1,319 @@
+2024-10-20 18:59:09 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/projects/shalom/runtime/debug/671552fd6c7b3.data): Failed to open stream: Permission denied' 
+
+in /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php:74
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(74): file_put_contents()
+#2 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(183): yii\debug\LogTarget->export()
+#3 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Logger.php(225): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2024-10-20 18:59:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'LESS_TERMCAP_se' => '[0m'
+    'POWERSHELL_TELEMETRY_OPTOUT' => '1'
+    'USER' => 'danny'
+    'LESS_TERMCAP_ue' => '[0m'
+    'DOTNET_CLI_TELEMETRY_OPTOUT' => '1'
+    'XDG_SESSION_TYPE' => 'x11'
+    'SHLVL' => '2'
+    'HOME' => '/home/danny'
+    'OLDPWD' => '/home/danny/Desktop/Link to projects/shalom'
+    'DESKTOP_SESSION' => 'gnome'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'LESS_TERMCAP_so' => '[01;33m'
+    'SYSTEMD_EXEC_PID' => '32307'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_NOT_FOUND_INSTALL_PROMPT' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'qt5ct'
+    'IM_CONFIG_PHASE' => '1'
+    'LOGNAME' => 'danny'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'LESS_TERMCAP_us' => '[1;32m'
+    '_' => '/usr/bin/php'
+    'XDG_SESSION_CLASS' => 'user'
+    'MEMORY_PRESSURE_WATCH' => '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@gnome.service/memory.pressure'
+    'USERNAME' => 'danny'
+    'TERM' => 'xterm-256color'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'WINDOWPATH' => '2'
+    'PATH' => '/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/danny/.dotnet/tools'
+    'SESSION_MANAGER' => 'local/danny:@/tmp/.ICE-unix/32307,unix/danny:/tmp/.ICE-unix/32307'
+    '_JAVA_OPTIONS' => '-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+    'GDM_LANG' => 'C.UTF-8'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/e4e05535_fa34_4972_bcc1_15461876967b'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':1'
+    'LANG' => 'C.UTF-8'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'POWERSHELL_UPDATECHECK' => 'Off'
+    'XDG_SESSION_DESKTOP' => 'gnome'
+    'GNOME_TERMINAL_SERVICE' => ':1.118'
+    'XMODIFIERS' => '@im=ibus'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90::ow=30;44:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SHELL' => '/usr/bin/zsh'
+    'QT_ACCESSIBILITY' => '1'
+    'GDMSESSION' => 'gnome'
+    'LESS_TERMCAP_mb' => '[1;31m'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'QT_IM_MODULE' => 'ibus'
+    'LESS_TERMCAP_md' => '[1;36m'
+    'PWD' => '/var/www/html/projects/shalom'
+    'LESS_TERMCAP_me' => '[0m'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/home/danny/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'VTE_VERSION' => '7792'
+    'MEMORY_PRESSURE_WRITE' => 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+    'CHROME_DESKTOP' => 'code-url-handler.desktop'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'GNOME'
+    'GDK_BACKEND' => 'x11'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.93.1'
+    'GIT_ASKPASS' => '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/usr/share/code/code'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/run/user/1000/vscode-git-7210723789.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/home/danny'
+    'USER_ZDOTDIR' => '/home/danny'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729450749.4292
+    'REQUEST_TIME' => 1729450749
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2024-10-20 19:01:14 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/projects/shalom/runtime/debug/67155369a34cb.data): Failed to open stream: Permission denied' 
+
+in /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php:74
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(74): file_put_contents()
+#2 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(183): yii\debug\LogTarget->export()
+#3 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Logger.php(225): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2024-10-20 19:00:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'LESS_TERMCAP_se' => '[0m'
+    'POWERSHELL_TELEMETRY_OPTOUT' => '1'
+    'USER' => 'danny'
+    'LESS_TERMCAP_ue' => '[0m'
+    'DOTNET_CLI_TELEMETRY_OPTOUT' => '1'
+    'XDG_SESSION_TYPE' => 'x11'
+    'SHLVL' => '2'
+    'HOME' => '/home/danny'
+    'OLDPWD' => '/home/danny/Desktop/Link to projects/shalom'
+    'DESKTOP_SESSION' => 'gnome'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'LESS_TERMCAP_so' => '[01;33m'
+    'SYSTEMD_EXEC_PID' => '32307'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_NOT_FOUND_INSTALL_PROMPT' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'qt5ct'
+    'IM_CONFIG_PHASE' => '1'
+    'LOGNAME' => 'danny'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'LESS_TERMCAP_us' => '[1;32m'
+    '_' => '/usr/bin/php'
+    'XDG_SESSION_CLASS' => 'user'
+    'MEMORY_PRESSURE_WATCH' => '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@gnome.service/memory.pressure'
+    'USERNAME' => 'danny'
+    'TERM' => 'xterm-256color'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'WINDOWPATH' => '2'
+    'PATH' => '/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/danny/.dotnet/tools'
+    'SESSION_MANAGER' => 'local/danny:@/tmp/.ICE-unix/32307,unix/danny:/tmp/.ICE-unix/32307'
+    '_JAVA_OPTIONS' => '-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+    'GDM_LANG' => 'C.UTF-8'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/e4e05535_fa34_4972_bcc1_15461876967b'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':1'
+    'LANG' => 'C.UTF-8'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'POWERSHELL_UPDATECHECK' => 'Off'
+    'XDG_SESSION_DESKTOP' => 'gnome'
+    'GNOME_TERMINAL_SERVICE' => ':1.118'
+    'XMODIFIERS' => '@im=ibus'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90::ow=30;44:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SHELL' => '/usr/bin/zsh'
+    'QT_ACCESSIBILITY' => '1'
+    'GDMSESSION' => 'gnome'
+    'LESS_TERMCAP_mb' => '[1;31m'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'QT_IM_MODULE' => 'ibus'
+    'LESS_TERMCAP_md' => '[1;36m'
+    'PWD' => '/var/www/html/projects/shalom'
+    'LESS_TERMCAP_me' => '[0m'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/home/danny/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'VTE_VERSION' => '7792'
+    'MEMORY_PRESSURE_WRITE' => 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+    'CHROME_DESKTOP' => 'code-url-handler.desktop'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'GNOME'
+    'GDK_BACKEND' => 'x11'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.93.1'
+    'GIT_ASKPASS' => '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/usr/share/code/code'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/run/user/1000/vscode-git-7210723789.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/home/danny'
+    'USER_ZDOTDIR' => '/home/danny'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729450857.6527
+    'REQUEST_TIME' => 1729450857
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'create_shalom_tables'
+    ]
+    'argc' => 3
+]
+2024-10-20 19:01:58 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/projects/shalom/runtime/debug/671553a39e5b3.data): Failed to open stream: Permission denied' 
+
+in /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php:74
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(74): file_put_contents()
+#2 /var/www/html/projects/shalom/vendor/yiisoft/yii2-debug/src/LogTarget.php(183): yii\debug\LogTarget->export()
+#3 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/projects/shalom/vendor/yiisoft/yii2/log/Logger.php(225): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2024-10-20 19:01:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'LESS_TERMCAP_se' => '[0m'
+    'POWERSHELL_TELEMETRY_OPTOUT' => '1'
+    'USER' => 'danny'
+    'LESS_TERMCAP_ue' => '[0m'
+    'DOTNET_CLI_TELEMETRY_OPTOUT' => '1'
+    'XDG_SESSION_TYPE' => 'x11'
+    'SHLVL' => '2'
+    'HOME' => '/home/danny'
+    'OLDPWD' => '/home/danny/Desktop/Link to projects/shalom'
+    'DESKTOP_SESSION' => 'gnome'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'LESS_TERMCAP_so' => '[01;33m'
+    'SYSTEMD_EXEC_PID' => '32307'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_NOT_FOUND_INSTALL_PROMPT' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'qt5ct'
+    'IM_CONFIG_PHASE' => '1'
+    'LOGNAME' => 'danny'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'LESS_TERMCAP_us' => '[1;32m'
+    '_' => '/usr/bin/php'
+    'XDG_SESSION_CLASS' => 'user'
+    'MEMORY_PRESSURE_WATCH' => '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@gnome.service/memory.pressure'
+    'USERNAME' => 'danny'
+    'TERM' => 'xterm-256color'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'WINDOWPATH' => '2'
+    'PATH' => '/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/danny/.dotnet/tools'
+    'SESSION_MANAGER' => 'local/danny:@/tmp/.ICE-unix/32307,unix/danny:/tmp/.ICE-unix/32307'
+    '_JAVA_OPTIONS' => '-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+    'GDM_LANG' => 'C.UTF-8'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/e4e05535_fa34_4972_bcc1_15461876967b'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'DISPLAY' => ':1'
+    'LANG' => 'C.UTF-8'
+    'XDG_CURRENT_DESKTOP' => 'GNOME'
+    'POWERSHELL_UPDATECHECK' => 'Off'
+    'XDG_SESSION_DESKTOP' => 'gnome'
+    'GNOME_TERMINAL_SERVICE' => ':1.118'
+    'XMODIFIERS' => '@im=ibus'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90::ow=30;44:'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'SHELL' => '/usr/bin/zsh'
+    'QT_ACCESSIBILITY' => '1'
+    'GDMSESSION' => 'gnome'
+    'LESS_TERMCAP_mb' => '[1;31m'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'QT_IM_MODULE' => 'ibus'
+    'LESS_TERMCAP_md' => '[1;36m'
+    'PWD' => '/var/www/html/projects/shalom'
+    'LESS_TERMCAP_me' => '[0m'
+    'XDG_DATA_DIRS' => '/usr/share/gnome:/home/danny/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=fa7a6a1735c7a543cd57f5b267154713'
+    'VTE_VERSION' => '7792'
+    'MEMORY_PRESSURE_WRITE' => 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+    'CHROME_DESKTOP' => 'code-url-handler.desktop'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'GNOME'
+    'GDK_BACKEND' => 'x11'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.93.1'
+    'GIT_ASKPASS' => '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/usr/share/code/code'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/run/user/1000/vscode-git-7210723789.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/home/danny'
+    'USER_ZDOTDIR' => '/home/danny'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1729450915.6324
+    'REQUEST_TIME' => 1729450915
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/'
+    ]
+    'argc' => 2
+]
